@@ -1,16 +1,8 @@
-local function do_keyboard_robot()
+local function do_keyboard_mahsool()
     local keyboard = {}
     keyboard.inline_keyboard = {
-		{
-    					{text = 'Sphero Number(c)', callback_data = '!share'},
-    					},
-    					{
-    		    		{text = 'Best Antispam Ch', callback_data = '!buygroup'},
-{text = 'FreeGroup📦🔮', callback_data = '/chat'},
-    		    		{text = 'Sphero Support', url = 'https://telegram.me/joinchat/C67c0D-5QEEIerZWKv1G9g'},
-	    },
-	    {
-	    {text = '🔙Back', callback_data = '!home'}
+{	
+	    {text = '🔙بازگشت به منوی اصلی', callback_data = '!home'}
         }
     }
     return keyboard
